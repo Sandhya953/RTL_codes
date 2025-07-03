@@ -1,0 +1,60 @@
+// all_logic_gates.v
+module all_logic_gates (
+    input wire a,
+    input wire b,
+    output wire and_gate,
+    output wire or_gate,
+    output wire not_a,
+    output wire not_b,
+    output wire nand_gate,
+    output wire nor_gate,
+    output wire xor_gate,
+    output wire xnor_gate
+);
+    
+    assign and_gate  = a & b;      // AND Gate
+    assign or_gate   = a | b;      // OR Gate
+    assign not_a     = ~a;         // NOT Gate for a
+    assign not_b     = ~b;         // NOT Gate for b
+    assign nand_gate = ~(a & b);   // NAND Gate
+    assign nor_gate  = ~(a | b);   // NOR Gate
+    assign xor_gate  = a ^ b;      // XOR Gate
+    assign xnor_gate = ~(a ^ b);   // XNOR Gate
+
+endmodule
+// tb_all_logic_gates.v
+`timescale 1ns/1ps
+module tb_all_logic_gates;
+
+    // Testbench signals
+    reg a, b;
+    wire and_gate, or_gate, not_a, not_b, nand_gate, nor_gate, xor_gate, xnor_gate;
+
+    // Instantiate the module
+    all_logic_gates uut (
+        .a(a),
+        .b(b),
+        .and_gate(and_gate),
+        .or_gate(or_gate),
+        .not_a(not_a),
+        .not_b(not_b),
+        .nand_gate(nand_gate),
+        .nor_gate(nor_gate),
+        .xor_gate(xor_gate),
+        .xnor_gate(xnor_gate)
+    );
+
+    // Stimulus
+    initial begin
+        $display("a b | AND OR NOT_A NOT_B NAND NOR XOR XNOR");
+        $display("---------------------------------------------");
+        for (integer i = 0; i < 4; i = i + 1) begin
+            {a, b} = i;  // Generates combinations 00, 01, 10, 11
+            #10; // wait for signals to settle
+            $display("%b %b |  %b   %b    %b     %b    %b   %b   %b    %b", 
+                     a, b, and_gate, or_gate, not_a, not_b, nand_gate, nor_gate, xor_gate, xnor_gate);
+        end
+        $finish;
+    end
+
+endmodule
