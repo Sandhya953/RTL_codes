@@ -1,10 +1,41 @@
-👋 Hi, I'm Sandhya Jagarapu
-🚀 100 Days of RTL - Verilog Challenge Hello VLSI enthusiasts! Welcome to my 100 Days of RTL repository.
+### 👋 Hello there! I'm Sandhya Jagarapu (Sandy)
 
-I’m sandhya jagarapu, and this repo is a collection of my daily Verilog projects completed over 100 days. Using Xilinx ISE 14.7 and other tools, I practiced and mastered various digital design concepts, from simple gates to complex finite state machines.
+🎓 Currently pursuing my B.Tech in Electronics and Communication Engineering (ECE) at Vignan's Institute of Engineering for Women.
 
-What’s Inside? Over 100 Verilog codes implementing diverse digital circuits Topics include combinational logic, sequential circuits, FSMs, counters, and much more A solid journey to strengthen RTL design and hardware modeling skills Why 100 Days of RTL? Practicing consistently for 100 days helped me deepen my understanding of hardware description languages, sharpen my coding skills, and prepare for challenges in VLSI design and FPGA development.
+#### 💡 About Me:
+I’m passionate about **VLSI Design**, **Embedded Systems**, and **Digital Electronics**. I love working with **Verilog HDL**, **FPGA Development**, and **Microcontroller Programming** (especially with Arduino and STM32 boards).
+I enjoy exploring new technologies, solving challenging problems, and continuously learning to improve my skills in:
+- **Digital Design & RTL Coding**
+- **SystemVerilog & Simulation**
+- **Embedded C Programming**
+- **FPGA & SoC Development**
+- **Communication Protocols (UART, SPI, I2C)**
 
-How to Use This Repo Feel free to explore the codes folder to find projects by day. Each code file is self-contained and commented to help learners understand the implementation.
+#### 🛠️ Tools & Technologies I Use:
+- Verilog, SystemVerilog
+- Vivado, ModelSim, EDA Playground
+- Arduino IDE, Keil, STM32CubeIDE
+- Git & GitHub for version control
+- OBS Studio for presentations
 
-Let’s Connect! If you have questions or want to collaborate, reach out via GitHub or Link
+#### ✨ My Interests:
+- Developing Digital Circuits and RTL Modules
+- Building Embedded Projects & Prototyping Hardware
+- Working on innovative IoT & Automation Projects
+- Participating in Technical Challenges & Hackathons
+- Sharing my learning journey via projects & blogs
+
+---
+
+#### 🚀 My Goal:
+To contribute to innovative hardware projects, strengthen my design skills, and grow as a **VLSI & Embedded Engineer**.
+
+---
+
+#### 📬 Let's Connect:
+- linkdin profile:https://www.linkedin.com/in/sandhya-jagarapu-481b18289
+- Email: *(Add your email here if you wish)*
+
+---
+
+_Thanks for visiting my GitHub! ✨_
