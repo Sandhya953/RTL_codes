@@ -1,0 +1,23 @@
+module all_logic_gates (
+    input wire a,
+    input wire b,
+    output wire and_gate,
+    output wire or_gate,
+    output wire not_a,
+    output wire not_b,
+    output wire nand_gate,
+    output wire nor_gate,
+    output wire xor_gate,
+    output wire xnor_gate
+);
+    
+    assign and_gate  = a & b;      // AND Gate
+    assign or_gate   = a | b;      // OR Gate
+    assign not_a     = ~a;         // NOT Gate for a
+    assign not_b     = ~b;         // NOT Gate for b
+    assign nand_gate = ~(a & b);   // NAND Gate
+    assign nor_gate  = ~(a | b);   // NOR Gate
+    assign xor_gate  = a ^ b;      // XOR Gate
+    assign xnor_gate = ~(a ^ b);   // XNOR Gate
+
+endmodule
